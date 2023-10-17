@@ -1,0 +1,206 @@
+body {
+    background-image: url(Assets/art3.png);
+    background-size: cover;
+    margin: 0;
+    padding: 0;  
+}
+
+.navbar {
+    margin: 5px;
+    background-color: #090909;
+    display: inline-flex;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.navbar img {
+    height: 50px;
+    margin-right: 20px;
+}
+
+.navbar ul {
+    font-family: 'Bangers';
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    margin: 0;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: #2a2a2a;
+    color: black;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Define a altura da área de exibição centralizada */
+}
+
+.ajust{
+    display: flex; 
+    text-align: center;
+    font-size: 35px;
+}
+
+.custom-input {
+    display: none;
+}
+
+.custom-input-label{
+    font-family: Bangers;
+    background-color: #505050;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 25px;
+    transition: 1s;
+}
+
+.custom-input-label:hover {
+    transform: translateY(-5px);
+    border-radius: 8px;
+    background-color: #1a1a1a; /* Altere a cor de fundo ao passar o mouse se desejar */
+    color: #ffffff; /* Altere a cor do texto ao passar o mouse se desejar */
+}
+
+#image-preview {
+    max-width: 300px;
+    max-height: 300px;
+    margin-top: 20px;
+}
+
+.resultado {
+    display: flex;
+    flex-direction: column; /* Coloca os itens em coluna */
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.557);
+    color: white; /* Define a cor do texto dentro da div resultado */
+    width: 50%;
+    position: absolute; /* ta centralizando o background */
+    left: 25%;
+    border-radius: 10px;
+}
+
+.resultado p{
+    margin-top: 10px;
+}
+
+.result-bar {
+    width: 300px;
+    height: 30px;
+    background-color: rgba(255, 253, 253, 0.434);
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    margin: 15px 15px;
+}
+
+.bar-fill-Marvel {
+    height: 100%;
+    background-color: #ff0000;
+    text-align: right;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+
+.bar-fill-Anti-Herói {
+    height: 100%;
+    background-color: #1c1c1c;
+    text-align: right;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+
+.bar-fill-Dc{
+    height: 100%;
+    background-color: #0084ff;
+    text-align: right;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+
+p{
+    color: #ffffff;
+    font-size: 24px;
+    padding: 0;  
+    margin: 0;
+    
+}
+
+#prob1{
+    font-size: 1.2rem;
+    color: #090909;
+    position: absolute;
+    left: 49%;
+}
+
+#prob2{
+    font-size: 1.2rem;
+    color: #090909;
+    position: absolute;
+    left: 49%;
+}
+
+#prob3{
+    font-size: 1.2rem;
+    color: #fff;
+    position: absolute;
+    left: 49%;
+}
+
+.navbar li.DC a{
+    color:#007cf0;
+}
+.navbar li.DC a:hover {
+    background-color: #0385ff;
+    color: white;
+}
+
+.navbar li.Marvel a{
+    color: #eb0000;
+}
+
+.navbar li.Marvel a:hover{
+    background-color: #eb0000;
+    color: #000000;
+}
+
+
+
+
+
+
+
+
+
+

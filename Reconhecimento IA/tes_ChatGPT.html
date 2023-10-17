@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botão com Imagem</title>
+    <style>
+        .file-input-container {
+            position: relative;
+            display: inline-block;
+            overflow: hidden;
+        }
+
+        .file-input-button {
+        background-image: url('Assets/logo-removebg-preview.png');
+        width: 200px;
+        height: 50px;
+        background-size: contain; /* Garante que a imagem seja completamente visível sem cortes */
+        border: none;
+        cursor: pointer;
+        text-align: center;
+        line-height: 50px;
+        color: white;
+        }
+
+
+        .file-input {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="file-input-container">
+        <label for="upload-button" class="file-input-button">Seu Texto Aqui</label>
+        <input type="file" id="upload-button" class="file-input">
+    </div>
+</body>
+</html>
