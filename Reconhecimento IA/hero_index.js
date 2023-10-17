@@ -106,7 +106,7 @@ async function classificarImagem(img) {
 
     }else if(maxClass === "Anti-Herói"){
         const imgClasse = document.getElementById('img-classe');
-        imgClasse.src = "Assets/logo_Anti.png";
+        imgClasse.src = "Assets/Logo_Anti.png";
         imgClasse.style.width = '100px'
         imgClasse.style.padding = '20px'
         imgClasse.style.borderRadius = '10px'
