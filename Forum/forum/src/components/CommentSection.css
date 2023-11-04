@@ -1,0 +1,78 @@
+/* CommentSection.css */
+
+/* Estilos gerais */
+.comment-section-container {
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 50px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.comment-section-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.comments-list {
+    margin-bottom: 20px;
+}
+
+.comment-item {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.comment-username {
+    font-weight: bold;
+    color: #3498db;
+}
+
+.comment-text {
+    margin-left: 5px;
+}
+
+.no-comments {
+    color: #555;
+}
+
+.comment-form {
+    margin-bottom: 20px;
+}
+
+.input-username, .input-comment {
+    width: 50%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.comment-button {
+    background-color: #3498db;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.comment-button:hover {
+    background-color: #2980b9;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .comment-section-container {
+        max-width: 100%;
+        border-radius: 0;
+    }
+}

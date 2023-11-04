@@ -1,0 +1,112 @@
+/* Tela com largura máxima de 784px */
+@media (max-width: 784px) {
+    /* Adicione as alterações necessárias para a tela com largura máxima de 784px aqui */
+    .carousel-caption {
+        padding: 20px;
+    }
+
+    .carousel-caption button {
+        font-size: 1rem;
+        margin-right: 50px;
+        margin-bottom: 50px;
+    }
+
+    .carousel-caption h1 {
+        font-size: 1.2rem;
+        margin-right: 500px;
+    }
+
+    .item .carousel-caption .btn-sobre {
+        margin-left: 66%;
+    }
+
+    .carousel-caption .forum-titulo {
+        max-width: 80%;
+        margin: 100px 10px;
+    }
+
+    #rodape a {
+        font-size: 2rem;
+    }
+}
+
+/* Tela com largura máxima de 1080px */
+@media (max-width: 1080px) {
+    /* Adicione as alterações necessárias para a tela com largura máxima de 1080px aqui */
+    .carousel-caption button {
+        /* margin-right: 100px;
+        margin-bottom: 100px; */
+        font-size: 1.3rem;
+    }
+
+    .carousel-caption h1 {
+        margin-right: 700px;
+    }
+
+    .item .carousel-caption h2 {
+        margin-left: 80%;
+    }
+
+    .item .carousel-caption .btn-sobre {
+        margin-left: 76%;
+    }
+
+    .carousel-caption .forum-titulo {
+        max-width: 60%;
+        margin: 150px 20px;
+    }
+
+    #rodape a {
+        font-size: 2.5rem;
+    }
+}
+
+/* Tela com largura máxima de 484px */
+@media (max-width: 484px) {
+    /* Adicione as alterações necessárias para a tela com largura máxima de 484px aqui */
+    .carousel-caption {
+        padding: 10px;
+    }
+
+    .carousel-caption button {
+        /* margin-right: 20px;
+        margin-bottom: 20px; */
+        font-size: 0.8rem;
+    }
+
+    .carousel-caption h1 {
+        font-size: 1rem;
+
+    }
+
+    .item .carousel-caption h2 {
+        margin-left: 60%;
+    }
+
+    .item .carousel-caption .btn-sobre {
+        margin-left: 56%;
+    }
+
+    .carousel-caption .forum-titulo {
+        max-width: 80%;
+        margin: 70px 10px;
+    }
+
+    #rodape a {
+        font-size: 1rem;
+    }
+
+    #rodape {
+        flex-direction: row;
+    }
+
+    .rodape2 {
+        margin-left: 0;
+    }
+
+    #rodape h2 {
+        font-size: 8px;
+    }
+}
+
+

@@ -1,0 +1,259 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Bangers';
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#navegation{
+    background-color: #090909;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    padding: 0 20px;
+    max-width: 100%;
+}
+
+
+#logo{
+    height: 50px;
+}
+
+#navegation ul{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    list-style: none;  
+    margin-top: 20px;  
+    margin-left: 20px;  
+    padding: 0;
+}
+
+#navegation .home{
+    color: #fff;
+    text-decoration: none;
+}
+
+#navegation .ia{
+    text-decoration: none;
+    color:#007cf0;
+}
+
+#navegation .forum {
+    padding: 30px 5px;
+    text-decoration: none;
+    color: hsl(5, 100%, 50%);
+}
+
+
+#navegation .heroiverso{
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: #007cf0;
+}
+
+
+/* conteudo carrossel */
+.carousel-inner img {
+    width: 100%;
+    max-height: 90vh;
+}
+
+.carousel-control {
+    background: none;
+    border: none;
+    font-size: 40px;
+    color: #333;
+}
+
+.carousel-caption button{
+    color: white;
+    width: 200px;
+    height: 50px;
+    margin-right: 1000px;
+    margin-bottom: 200px;
+    padding: 10px;
+    font-size: 1.7rem;
+    border-radius: 8px;
+    background-color: red;
+    transition: 1s;
+}
+
+.carousel-caption button:hover{
+    background-color: rgb(157, 8, 8);
+    transform: translateY(-5px);
+}
+
+
+.carousel-caption h1{
+    color: white;
+    margin-right: 900px;
+    margin-bottom: 10px;
+}
+
+.item .carousel-caption h2{
+    margin-left: 100%;
+}
+
+.item .carousel-caption .btn-sobre{
+    max-width: 60%;
+    margin-left: 96%;
+}
+
+.carousel-caption .forum-titulo{
+    max-width: 35%;
+    margin: 200px 40px;
+    height: 35vh;
+    background-color: rgb(213, 74, 74);
+    border-radius: 10px;
+    padding-left: 40px;
+}
+
+.carousel-caption .forum-titulo h1{
+    padding-top: 15px;
+    padding-left: 40px;
+}
+
+
+
+/* sessão heroiverso */
+#conteudo-heroiverso{
+    display: flex;
+    flex-direction: column;
+}
+
+#conteudo-heroiverso{
+    max-width: 100%;
+    background: linear-gradient(135deg, #f5efff, #25abff);
+}
+
+.txt-heroiverso{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-size: 1.8rem;
+}
+
+.txt-heroiverso p{
+    padding: 0 200px;
+}
+
+.txt-heroiverso h1{
+    text-align: center;
+    padding: 20px;
+}
+
+#cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+
+.card{
+    margin: 10px 0;
+}
+
+.card img{
+    max-width: 100%;
+    margin: 20px 0;
+}
+
+/* parte area dos personagens */
+#sessao-personagens{
+    background: linear-gradient(180deg, #ececec,  #9a9a9a);
+    text-align: center;
+}
+
+#sessao-personagens h1{
+    margin-top: 0;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+#sessao-personagens h2 img{
+    margin-top: 30px;
+    max-width: 250px;
+}
+
+#sessao-personagens .txt{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    word-wrap: break-word;
+}
+
+.conteudo-personagens{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 4em;
+}
+
+#sessao-personagens .txt{
+    font-size: 1.3em;
+    margin: 0px 200px;
+}
+
+.conteudo-personagens img{
+    max-width: 100%;
+}
+
+
+
+/* rodape pagina inicial */
+
+#rodape{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    background-color: #6ba3d8;
+    max-width: 100%;
+    cursor: pointer;
+    gap: 10em;
+}
+
+.rodape2{
+    margin-left: 100px;
+}
+
+#rodape a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+    font-size: 3.5rem;
+    color: #090909;
+    transition: all 1s;
+}
+
+#rodape a:nth-child(1){
+    color: rgb(89, 6, 89);
+}
+
+#rodape a:hover{
+    transform: scale(1.1);
+}
+
+#rodape h2{
+    font-size: 25px;
+}
+
+.rodape-image img{
+    margin: 50px 200px 0 0;
+    height: 100px;
+    max-width: 100%;
+}
+
+.seta{    
+    font-size: 2.2em;
+    display: flex;
+    align-items: end;
+    margin: 0 5px 15px 300px;
+}
