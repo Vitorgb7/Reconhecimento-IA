@@ -106,13 +106,8 @@ async function classificarImagem(img) {
 
     }else if(maxClass === "Anti-Herói"){
         const imgClasse = document.getElementById('img-classe');
-<<<<<<< HEAD:Pagina Principal/Reconhecimento IA/hero_index.js
-        imgClasse.src = "Assets/anti-heroi.gif";
-        imgClasse.style.width = '200px'
-=======
         imgClasse.src = "Assets/Logo_Anti.png";
         imgClasse.style.width = '100px'
->>>>>>> 4a12a5a78ec13bbd8fe00d8732bd18935090aec9:Reconhecimento IA/hero_index.js
         imgClasse.style.padding = '20px'
         imgClasse.style.borderRadius = '10px'
         imgClasse.style.marginTop = '10px';
