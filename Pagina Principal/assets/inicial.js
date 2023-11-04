@@ -17,11 +17,9 @@ window.addEventListener('scroll', () => {
 window.addEventListener('scroll', () => {
     const sessaoPersonagens = document.getElementById('sessao-personagens');
     
-    // ele pega a distância do elemento em relação ao topo da janela visível
     const distanciaDoTopo = sessaoPersonagens.getBoundingClientRect().top;
     sessaoPersonagens.style.opacity = 0;
     
-// esse if olha se o elemento está visível na janela visível do navegador
     if (distanciaDoTopo < window.innerHeight) {
         sessaoPersonagens.style.opacity = 1;
         sessaoPersonagens.style.transition = 'opacity 5s ease';
