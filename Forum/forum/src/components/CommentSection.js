@@ -8,12 +8,12 @@ const CommentSection = () => {
     const [newComment, setNewComment] = useState('');
     const [username, setUsername] = useState('');
 
-    // Efeito colateral que carrega os comentários salvos do armazenamento local (localStorage) ao carregar o componente
+    // efeito que carrega os comentários salvos do armazenamento local (localStorage) ao carregar o componente
     useEffect(() => {
         loadCommentsFromLocalStorage();
     }, []);
 
-    // Efeito colateral que salva os comentários no armazenamento local (localStorage) sempre que a variável de comentários for alterada
+    // efeito que salva os comentários no armazenamento local (localStorage) sempre que a variável de comentários for alterada
     useEffect(() => {
         saveCommentsToLocalStorage();
     }, [comments]);
