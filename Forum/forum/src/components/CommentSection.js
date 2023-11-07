@@ -58,8 +58,12 @@ const CommentSection = () => {
     // Renderiza o componente CommentSection com formulário de comentário e lista de comentários
     return (
         <div className="all">
+            
             <div className="comment-section-container">
-                <h2 className="comment-section-title">Fórum Heroiverso</h2>
+                <div className="container-title">
+                    <h1 className="comment-section-title">-Fórum</h1>
+                    <h1 className="comment-section-title2"> Heroiverso-</h1>
+                </div>
                 <form className="comment-form" onSubmit={handleAddComment}>
                     <input
                         type="text"
@@ -96,5 +100,4 @@ const CommentSection = () => {
         </div>
     );
 };
-
-export default CommentSection;
+export default CommentSection;
