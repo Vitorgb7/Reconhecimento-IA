@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './CommentSection.css';
+import UserAvatar from './UserAvatar'
 
 // declarando o componente funcional CommentSection
 const CommentSection = () => {
@@ -87,6 +88,7 @@ const CommentSection = () => {
                         // Mapeia e exibe os comentários existentes
                         comments.map((comment, index) => (
                             <div key={index} className="comment-item">
+                                <UserAvatar />
                                 <strong className="comment-username">{comment.username}: </strong>
                                 <span className="comment-text">{comment.comment}</span>
                             </div>

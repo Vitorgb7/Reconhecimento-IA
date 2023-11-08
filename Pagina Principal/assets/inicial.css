@@ -252,6 +252,7 @@ html{
 }
 
 .seta{    
+    color: black;
     font-size: 2.2em;
     display: flex;
     align-items: end;
