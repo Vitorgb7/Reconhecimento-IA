@@ -19,7 +19,7 @@ const CommentSection = () => {
         saveCommentsToLocalStorage();
     }, [comments]);
 
-    // Função para carregar os comentários do armazenamento local (localStorage)
+    //essa função serve para carregar os comentários do armazenamento local (localStorage)
     const loadCommentsFromLocalStorage = () => {
         const storedComments = localStorage.getItem('comments'); // Obtém os comentários armazenados no localStorage
         if (storedComments) {
@@ -27,7 +27,7 @@ const CommentSection = () => {
         }
     };
 
-    // Função para salvar os comentários no armazenamento local (localStorage)
+    //essa função para salvar os comentários no armazenamento local (localStorage)
     const saveCommentsToLocalStorage = () => {
         localStorage.setItem('comments', JSON.stringify(comments)); // Converte os comentários de objeto para string e salva no localStorage
     };
@@ -42,7 +42,7 @@ const CommentSection = () => {
         setNewComment(e.target.value);
     };
 
-    // Manipulador de evento para adicionar um novo comentário à lista de comentários
+    // manipula o evento para adicionar um novo comentário à lista de comentários
     const handleAddComment = (e) => {
         e.preventDefault();
         if (newComment.trim() !== '' && username.trim() !== '') {
@@ -56,7 +56,7 @@ const CommentSection = () => {
         }
     };
 
-    // Renderiza o componente CommentSection com formulário de comentário e lista de comentários
+    // este jsx renderiza o componente CommentSection com formulário de comentário e lista de comentários
     return (
         <div className="all">
             
@@ -85,7 +85,8 @@ const CommentSection = () => {
                 </form>
                 <div className="comments-list">
                     {comments.length > 0 ? (
-                        // Mapeia e exibe os comentários existentes
+                        // map mapeia e exibe os comentários existentes
+                        // como essa aplicação é pequena,não precisamos utilizar a propriedade key pra renderização,o index já funciona
                         comments.map((comment, index) => (
                             <div key={index} className="comment-item">
                                 <UserAvatar />
