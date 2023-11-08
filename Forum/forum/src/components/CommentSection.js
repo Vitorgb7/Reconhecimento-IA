@@ -86,7 +86,6 @@ const CommentSection = () => {
                 <div className="comments-list">
                     {comments.length > 0 ? (
                         // map mapeia e exibe os comentários existentes
-                        // como essa aplicação é pequena,não precisamos utilizar a propriedade key pra renderização,o index já funciona
                         comments.map((comment, index) => (
                             <div key={index} className="comment-item">
                                 <UserAvatar />
