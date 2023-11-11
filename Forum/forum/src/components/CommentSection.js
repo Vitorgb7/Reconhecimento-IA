@@ -5,7 +5,52 @@ import UserAvatar from './UserAvatar'
 // declarando o componente funcional CommentSection
 const CommentSection = () => {
     //aqui se define os estados iniciais para armazenar os comentários, novos comentários e nome de usuário
-    const [comments, setComments] = useState([]);
+    const [comments, setComments] = useState([
+        {
+            username: "joseMarvel",
+            comment: "muito melhor que dc"
+
+        },
+        {
+            username: "dcLovers",
+            comment: "nunca,dc é mil vezes melhor que marvel"
+
+
+        },
+        {
+            username: "teamCapitao",
+            comment: "só o segundo filme do cap é maior q a dc"
+
+        },
+        {
+            username: "thor123",
+            comment: "thor é o melhor personagem"
+        },
+        {
+            username: "NoobMaster69",
+            comment: "oi fã do thor"
+        },
+        {
+            username: "thor123",
+            comment: "(saiu do chat)"
+        },
+        {
+            username: "deadpool190",
+            comment: "dito isso,só o melhor é imortal"
+        },
+        {
+            username: "wolverineX",
+            comment: "realmente o melhor é imortal"
+        },
+        {
+            username: "supermanFanboy",
+            comment: "se não existisse a criptonita..."
+        },
+        {
+            username: "batmanCoringando",
+            comment: "kkkkkkkk @supermanFanboy"
+        }
+    ]);
     const [newComment, setNewComment] = useState('');
     const [username, setUsername] = useState('');
 
