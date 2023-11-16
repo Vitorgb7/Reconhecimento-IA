@@ -2,5 +2,39 @@
   text-align: center;
 }
 
+.navbar{
+  font-family: 'Bangers';
+  font-size: .9em;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: black;
+}
 
+.navbar a{
+  color: aliceblue;
+  text-decoration: none;
+}
 
+.navbar ul{
+  margin-right: 10px;
+  padding: 15px;
+  gap: 2em;
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.navbar img{
+  padding: 2px;
+  margin-left: 12px;
+  max-width: 50px;
+}
+
+.li-ia{
+  color: #007cf0;
+}
+
+.li-heroiverso{
+  color: hsl(5, 100%, 50%);
+}

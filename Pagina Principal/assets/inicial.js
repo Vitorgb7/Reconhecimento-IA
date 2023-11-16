@@ -1,15 +1,19 @@
 // evento de escrolar e ir aparecendo os elementos ao decorrer de descer com o mouse
 window.addEventListener('scroll', () => {
     const conteudoHeroiverso = document.getElementById('conteudo-heroiverso');
+    const cards = document.getElementById('cards')
     
     // ele pega a distância do elemento em relação ao topo da janela visível
     const distanciaDoTopo = conteudoHeroiverso.getBoundingClientRect().top;
     conteudoHeroiverso.style.opacity = 0;
+    cards.style.opacity = 0;
     
 // esse if olha se o elemento está visível na janela visível do navegador
     if (distanciaDoTopo < window.innerHeight) {
         conteudoHeroiverso.style.opacity = 1;
         conteudoHeroiverso.style.transition = 'opacity 3s ease';
+        cards.style.opacity = 1;
+        cards.style.transition = 'opacity 7s ease';
     }
 })
 
